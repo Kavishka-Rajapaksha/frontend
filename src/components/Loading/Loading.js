@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './loading..module.css'
+import classes from './loading.module.css'
 import { useLoading } from '../../hooks/useLoading'
 
 
@@ -9,9 +9,9 @@ export default function Loading() {
 
   return (
     <div className={classes.container}>
-      <div className={classes.item}>
+      <div className={classes.items}>
         <img src="/Loading.svg" alt='Loading!'/>
-
+      <h1>Loading..!</h1>
       </div>
     </div>
   )

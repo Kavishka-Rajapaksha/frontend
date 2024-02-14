@@ -51,7 +51,8 @@ export default function CartPage() {
                 </div>
 
                 <div>
-                  <button className={classes.remove_button} onClick={()=>removeFromCart(item.food.id)}>Remove</button>
+                  <button className={classes.remove_button}
+                  onClick={()=>removeFromCart(item.food.id)}>Remove</button>
                 </div>
               </li>
             ))}
